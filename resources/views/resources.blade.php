@@ -3,7 +3,7 @@
 @section('pageTitle', 'Resources')
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     
-    <body class="bg-gray-300 lg:bg-gradient-to-r lg:from-gray-300 lg:via-mitherapy_pink-600 lg:to-mitherapy_purple-400">
+    <body class="bg-gray-300 lg:bg-gradient-to-r lg:from-gray-300 lg:to-gray-200">
         <section class="text-gray-600 body-font">
             <div class="container px-5 py-24 mx-auto">
               <div class="text-center mb-20">

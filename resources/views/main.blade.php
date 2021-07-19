@@ -90,7 +90,7 @@
  @yield('contents')
      <!-- end nav -->
 
-     <footer class="text-gray-800 body-font">
+     <footer class=" bg-gray-300 text-gray-800 body-font">
         <div class="container px-5 py-5 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
         <div class=" lg:w-3/4 md:w-1/2 w-full px-4">
             <h1 class="text-lg font-bold text-center lg:text-2xl">
