@@ -1,0 +1,4 @@
+ applications:
+ - name: mitherapy
+   random-route: true
+   memory: 128M
