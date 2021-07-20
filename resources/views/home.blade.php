@@ -45,8 +45,8 @@
                         </div>
                     </div>
                     <div class="mt-10">
-                      <button onclick="window.location='{{ url("/book-a-session") }}'" type="button" class="items-center px-4 py-2 text-base self-center uppercase leading-6 font-medium rounded-md text-white transition-colors duration-200 transform bg-mitherapy_pink-700 hover:bg-mitherapy_pink-600 focus:outline-none focus:ring focus:ring-offset-2 focus:ring-mitherapy_pink-700 focus:ring-opacity-50 active:bg-mitherapy_pink-700">
-                        Book your well mind
+                      <button onclick="window.location='{{ url("/book-a-session") }}'" type="button" class="items-center px-4 py-2 text-base self-center leading-6 font-medium rounded-md text-white transition-colors duration-200 transform bg-mitherapy_pink-700 hover:bg-mitherapy_pink-600 focus:outline-none focus:ring focus:ring-offset-2 focus:ring-mitherapy_pink-700 focus:ring-opacity-50 active:bg-mitherapy_pink-700">
+                        Book Your Well Mind
                       </button>
                     </div>
                 </div>

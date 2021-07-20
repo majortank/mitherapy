@@ -258,9 +258,9 @@
           <div>
             <p class=" bg-mitherapy_purple text-center text-white dark:text-white sm:py-0">
               <span>/</span>
-              <a href="/privacy-policy" class="text-xs">Privacy Policy</a>
+              <a target="_blank"  href="/privacy-policy" class="text-xs">Privacy Policy</a>
               <span>/</span>
-              <a href="/terms-and-conditions" class="text-xs ">Terms and Conditions</a>
+              <a target="_blank"  href="/terms-and-conditions" class="text-xs ">Terms and Conditions</a>
               <span>/</span>
             </p>
           </div>
