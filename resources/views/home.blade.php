@@ -3,7 +3,7 @@
 @section('pageTitle', 'Home')
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     
-    <body class="bg-gray-300 lg:bg-gradient-to-r lg:from-gray-300 lg:via-mitherapy_pink-600 lg:to-mitherapy_purple-400">
+    <body class="bg-gradient-to-r from-gray-100 via-mitherapy_pink-400  to-mitherapy_purple-100 lg:bg-gradient-to-r lg:from-gray-300 lg:via-mitherapy_pink-600 lg:to-mitherapy_purple-400">
 
         <!-- -->
         
@@ -13,7 +13,7 @@
             <div class="w-full lg:w-1/2">
                 <div class="lg:max-w-lg">
                     <h1 class="text-2xl font-bold text-gray-800 dark:text-white md:text-3xl">You can get therapy from home right now.<span class="text-mitherapy_pink-700 ">Take advantage of it.</span></h1>
-                    <p class="mt-2 text-gray-600 lg:text-gray-800 dark:text-gray-300">Mitherapy helps you find therapy from the comfort of your home
+                    <p class="mt-2 text-gray-800 lg:text-gray-800 dark:text-gray-300">Mitherapy helps you find therapy from the comfort of your home
                         so you can be comfortable during your therapy sessions even when 
                         you're in lock down. We work with professional counselors in SA to find you the therapy you need.</p>
                     <div class="grid gap-6 mt-8 sm:grid-cols-2">
@@ -71,41 +71,42 @@
         <section class="bg-white dark:bg-gray-800">
         <div x-show="show" class="container px-6 py-8 mx-auto">
             <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-                <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" viewBox="0 0 30 30" fill="currentColor">
-                  <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z" fill="#E99FB9" />
-                </svg>
+              <div class="hover:animate-wiggle bg-mitherapy_purple-500 rounded-lg md:mb-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mt-2 ml-2 text-mitherapy_pink-600" fill="none" viewBox="0 0 30 30" stroke="currentColor">
+                  <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                  <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+                </svg>    
+
+                <h1 class="m-4 text-xl font-semibold text-mitherapy_pink-600 dark:text-white">Student therapy</h1>
+                
+                <p class="m-4 text-gray-100 dark:text-gray-400 tracking-tighter">
+                  Student Therapy session aims to help students become self-aware and reach their highest potential while dealing with anxiety and stress. 
+                  The therapy session provides a happy and comfortable environment for students to discuss their problems regarding their academic and social life.
+                </p>
+            </div>
     
-                    <h1 class="mt-4 text-xl font-semibold text-gray-800 dark:text-white">Student therapy</h1>
+                <div class=" hover:animate-wiggle bg-mitherapy_purple-500 rounded-lg md:mb-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mt-2 ml-2 text-mitherapy_pink-600" fill="none" viewBox="0 0 30 30" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                    </svg>
     
-                    <p class="mt-2 text-gray-500 dark:text-gray-400">
-                        Student Therapy session aims to help students become self-aware and reach their highest potential while dealing with anxiety and stress. 
-                        The therapy session provides a happy and comfortable environment for students to discuss their problems regarding their academic and social life.
-                    </p>
-                </div>
-    
-                <div>
+                    <h1 class="m-4 text-xl font-semibold text-mitherapy_pink-600 dark:text-white ml-2">Individual therapy</h1>
                     
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 30 30" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" fill="#E99FB9"/>
-                    </svg>    
-    
-                    <h1 class="mt-4 text-xl font-semibold text-gray-800 dark:text-white">Individual therapy</h1>
-                    
-                    <p class="mt-2 text-gray-500 dark:text-gray-400">
+                    <p class="m-4 text-gray-100 dark:text-gray-400 ml-2">
                         Individual therapy session is a joint process between a therapist and a person in therapy. The goals of therapy is to inspire change or improve quality of life. 
                         People may seek therapy for help with issues that are hard to face alone.
                     </p>
                 </div>
                 
-                <div>
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 30 30" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" fill="#E99FB9" />
+                <div class="hover:animate-wiggle bg-mitherapy_purple-500 rounded-lg md:mb-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mt-2 ml-2 text-mitherapy_pink-600" fill="none" viewBox="0 0 30 30" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
                   </svg>
                 
-                    <h1 class="mt-4 text-xl font-semibold text-gray-800 dark:text-white">Group therapy</h1>
+                    <h1 class="m-4 text-xl font-semibold text-mitherapy_pink-600 dark:text-white ml-2">Group therapy</h1>
                 
-                    <p class="mt-2 text-gray-500 dark:text-gray-400">
+                    <p class="m-4 text-gray-100  dark:text-gray-400 ml-2">
                         Group therapy session is a form of psychotherapy in which 2 or more patients meets to discuss a common problem. 
                         Group counseling sessions take place under the guidance and supervision of a licensed mental health counselor.
                     </p>

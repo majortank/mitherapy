@@ -5,6 +5,12 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      keyframes: {
+        wiggle: {
+          '0%, 100%': { transform: 'rotate(-3deg)' },
+          '50%': { transform: 'rotate(3deg)' },
+        }
+       },
       spacing: {
         128: '32rem',
       },
@@ -36,6 +42,7 @@ module.exports = {
         'spin-slow': 'spin 3s linear infinite',
         'pulse-slow' : 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
         'bounce-slow' : 'bounce 3s infinite',
+        'wiggle': 'wiggle 1s ease-in-out infinite',
        }
 
     },
@@ -44,6 +51,7 @@ module.exports = {
     animation: ['responsive', 'motion-safe', 'motion-reduce'],
     extend: {
       backgroundColor: ['active'],
+      animation: ['hover', 'group-hover'],
 
     },
   },

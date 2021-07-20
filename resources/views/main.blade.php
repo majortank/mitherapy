@@ -56,7 +56,7 @@
                  
                  <!-- Mobile menu button -->
                  <div class="flex lg:hidden">
-                     <button type="button" class="text-gray-500 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none focus:text-gray-600 dark:focus:text-gray-400" aria-label="toggle menu" @click="isOpen = !isOpen" >
+                     <button type="button" class="text-mitherapy_pink-500 dark:text-gray-200 hover:text-mitherapy_pink-400 dark:hover:text-gray-400 focus:outline-none focus:text-mitherapy_pink-600 dark:focus:text-gray-400" aria-label="toggle menu" @click="isOpen = !isOpen" >
                          <svg viewBox="0 0 24 24" class="w-6 h-6 fill-current">
                              <path d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"></path>
                          </svg>
