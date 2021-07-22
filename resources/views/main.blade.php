@@ -49,7 +49,7 @@
          <div x-data="{isOpen:false}" class="container px-6 py-4 mx-auto lg:flex lg:justify-between lg:items-center">
              <div class="flex items-center justify-between">
                  <div>
-                     <a href="/home">
+                     <a href="/">
                      <img class="w-44 h-14" src="{{asset('img\logo.svg')}}" />
                      </a>
                  </div>
@@ -67,12 +67,12 @@
              <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
              <div :class="isOpen ? 'show' : 'hidden'" class="items-center lg:flex">
                  <div class="flex flex-col mt-4 space-y-8 lg:flex-row lg:items-center lg:mt-0 lg:space-y-0 lg:space-x-8 lg:font-bold">
-                  <a class="block font-medium text-white dark:text-gray-200 hover:text-mitherapy_pink-600 hover:underline" title="Check how mitherapy session booking works." href="/home">Home</a>
+                  <a class="block font-medium text-white dark:text-gray-200 hover:text-mitherapy_pink-600 hover:underline" title="Check how mitherapy session booking works." href="/">Home</a>
                      <a class="block font-medium text-white dark:text-gray-200 hover:text-mitherapy_pink-600 hover:underline" title="Check how mitherapy session booking works." href="/How-it-works">How it works!</a>
                      <a class="block font-medium text-white dark:text-gray-200 hover:text-mitherapy_pink-600 hover:underline" title="Why get counselled by us" href="/Why-us">Why us?</a>
                      <a class="block font-medium text-white dark:text-gray-200 hover:text-mitherapy_pink-600 hover:underline" title="Get up to date health resources" href="/Resources">Resources</a>
                      <span  class="relative inline-flex rounded-md shadow-sm">
-                         <button onclick="window.location='{{ url("/book-a-session") }}'" type="button" class="items-center w-full px-4 py-2 text-base self-center uppercase leading-6 font-medium rounded-md text-white transition-colors duration-200 transform bg-mitherapy_pink-700 hover:bg-mitherapy_pink-600 focus:outline-none focus:ring focus:ring-offset-2 focus:ring-mitherapy_pink-700 focus:ring-opacity-50 active:bg-mitherapy_pink-700">
+                         <button onclick="window.location='{{ url("/Book-A-Session") }}'" type="button" class="items-center w-full px-4 py-2 text-base self-center uppercase leading-6 font-medium rounded-md text-white transition-colors duration-200 transform bg-mitherapy_pink-700 hover:bg-mitherapy_pink-600 focus:outline-none focus:ring focus:ring-offset-2 focus:ring-mitherapy_pink-700 focus:ring-opacity-50 active:bg-mitherapy_pink-700">
                            Book your well mind
                          </button>
                    
@@ -258,11 +258,19 @@
           <div>
             <p class=" bg-mitherapy_purple text-center text-white dark:text-white sm:py-0">
               <span>/</span>
-              <a target="_blank"  href="/privacy-policy" class="text-xs">Privacy Policy</a>
+              <a target="_blank"  href="/Privacy-Policy" class="text-xs">Privacy Policy</a>
               <span>/</span>
-              <a target="_blank"  href="/terms-and-conditions" class="text-xs ">Terms and Conditions</a>
+              <a target="_blank"  href="/Terms-And-Conditions" class="text-xs ">Terms and Conditions</a>
               <span>/</span>
             </p>
           </div>
         </div>
       </footer>
+      <div class="fixed z-30 bottom-0 right-0 mr-6 mb-6">
+            <a id="back2Top" href="#" class=" text-mitherapy_pink-800 bg-mitherapy_purple-500 bg-opacity-50 rounded-md">
+                <span class="hidden">Back to Top</span>
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 30 30" class=" h-20 w-20">
+                    <path fill="currentColor" d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z" />
+                </svg>
+            </a>
+      </div>

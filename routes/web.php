@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/home', function () {
+Route::get('/', function () {
     return view('home');
 });
 
@@ -29,18 +29,14 @@ Route::get('/How-it-works', function(){
     return view('how');
 });
 
-Route::get('/therapist-search', function(){
-    return view('search');
-});
-
-Route::get('/book-a-session', function(){
+Route::get('/Book-A-Session', function(){
     return view('book');
 });
 
-Route::get('/privacy-policy', function(){
+Route::get('/Privacy-Policy', function(){
     return view('privacy_policy');
 });
 
-Route::get('/terms-and-conditions', function(){
+Route::get('/Terms-And-Conditions', function(){
     return view('terms_and_conditions');
 });

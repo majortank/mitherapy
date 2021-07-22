@@ -7,17 +7,17 @@
         <section class="text-gray-600 body-font">
             <div class="container px-5 py-24 mx-auto">
               <div class="flex flex-col text-center w-full mb-20">
-                <h1 class="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">OUR TEAM</h1>
-                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.</p>
+                <h1 class="text-4xl font-medium title-font mb-4 text-gray-900 tracking-widest">OUR TEAM</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Meet Our Team.</p>
               </div>
               <div class="flex flex-wrap -m-4">
                 <div class="p-4 lg:w-1/2">
                   <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                    <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/200x200">
+                    <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="{{asset('img\jm.jpg')}}">
                     <div class="flex-grow sm:pl-8">
                       <h2 class="title-font font-medium text-lg text-gray-900">Jeremiah Nyembe</h2>
-                      <h3 class="text-gray-500 mb-3">Chief Exeutive Office @mitherapy</h3>
-                      <p class="mb-4">Quotes here</p>
+                      <h3 class="text-gray-500 mb-3">CEO</h3>
+                      <p class="mb-4">Chief Exeutive Office @mitherapy</p>
                       <span class="inline-flex">
                         <a class="text-gray-500">
                           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
@@ -40,7 +40,7 @@
                 </div>
                 <div class="p-4 lg:w-1/2">
                   <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                    <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/201x201">
+                    <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="{{asset('img\ttt.jpg')}}">
                     <div class="flex-grow sm:pl-8">
                       <h2 class="title-font font-medium text-lg text-gray-900">Tankiso Thebe</h2>
                       <h3 class="text-gray-500 mb-3">CTO</h3>
@@ -67,11 +67,11 @@
                 </div>
                 <div class="p-4 lg:w-1/2">
                   <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                    <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/204x204">
+                    <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="{{asset('img\mk.jpg')}}">
                     <div class="flex-grow sm:pl-8">
                       <h2 class="title-font font-medium text-lg text-gray-900">Mkateko Rambau</h2>
                       <h3 class="text-gray-500 mb-3">CFO</h3>
-                      <p class="mb-4">Chief Finance Officer @mitherapy.</p>
+                      <p class="mb-4">Chief Finance Officer @mitherapy</p>
                       <span class="inline-flex">
                         <a class="text-gray-500">
                           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
@@ -94,7 +94,7 @@
                 </div>
                 <div class="p-4 lg:w-1/2">
                   <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                    <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/206x206">
+                    <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="{{asset('img\lg.jpg')}}">
                     <div class="flex-grow sm:pl-8">
                       <h2 class="title-font font-medium text-lg text-gray-900">Lutho Gxashe</h2>
                       <h3 class="text-gray-500 mb-3">CMO</h3>
@@ -122,7 +122,7 @@
 
                 <div class="p-4 lg:w-1/2">
                     <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                      <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/206x206">
+                      <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="{{asset('img\tt.jpg')}}">
                       <div class="flex-grow sm:pl-8">
                         <h2 class="title-font font-medium text-lg text-gray-900">Tumisho Thobejane</h2>
                         <h3 class="text-gray-500 mb-3">CBO</h3>

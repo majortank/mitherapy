@@ -43,7 +43,24 @@ module.exports = {
         'pulse-slow' : 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
         'bounce-slow' : 'bounce 3s infinite',
         'wiggle': 'wiggle 1s ease-in-out infinite',
-       }
+       },
+       height: (theme) => ({
+        'screen-1/3': '33vh',
+        'screen-1/2': '50vh',
+        'screen-2/3': '66vh',
+        'screen-3/4': '75vh',
+        'screen-4/5': '80vh',
+    }),
+    minHeight: {
+        'screen-1/3': '33vh',
+        'screen-1/2': '50vh',
+        'screen-2/3': '66vh',
+        'screen-3/4': '75vh',
+        'screen-4/5': '80vh',
+    },
+    backgroundSize: {
+        '100-200': '110% 220%',
+    },
 
     },
   },
