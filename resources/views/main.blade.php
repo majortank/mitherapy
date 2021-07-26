@@ -70,7 +70,7 @@
                   <a class="block font-medium text-white dark:text-gray-200 hover:text-mitherapy_pink-600 hover:underline" title="Check how mitherapy session booking works." href="/">Home</a>
                      <a class="block font-medium text-white dark:text-gray-200 hover:text-mitherapy_pink-600 hover:underline" title="Check how mitherapy session booking works." href="/How-it-works">How it works!</a>
                      <a class="block font-medium text-white dark:text-gray-200 hover:text-mitherapy_pink-600 hover:underline" title="Why get counselled by us" href="/Why-us">Why us?</a>
-                     <a class="block font-medium text-white dark:text-gray-200 hover:text-mitherapy_pink-600 hover:underline" title="Get up to date health resources" href="/Resources">Resources</a>
+                     <a class="block font-medium text-white dark:text-gray-200 hover:text-mitherapy_pink-600 hover:underline" title="Stay up to date with health resources" href="/Resources">Resources</a>
                      <span  class="relative inline-flex rounded-md shadow-sm">
                          <button onclick="window.location='{{ url("/Book-A-Session") }}'" type="button" class=" text-lg items-center w-full px-4 py-2 self-center uppercase leading-6 font-medium rounded-sm text-white transition-colors duration-200 transform bg-mitherapy_pink-700 hover:bg-mitherapy_pink-600 focus:outline-none focus:ring focus:ring-offset-2 focus:ring-mitherapy_pink-700 focus:ring-opacity-50 active:bg-mitherapy_pink-700">
                            Book your well mind
