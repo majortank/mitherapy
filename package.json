@@ -19,6 +19,7 @@
     },
     "dependencies": {
         "alpinejs": "^3.2.1",
+        "daisyui": "^1.10.0",
         "tailwindcss-scrollbar": "^0.1.0"
     }
 }
