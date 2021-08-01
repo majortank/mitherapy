@@ -144,7 +144,7 @@
                 <p class="mt-4 text-gray-600 dark:text-gray-400">You are a professional or graduate counselor, we connect you to clients that you can counsel remotely through chat, video, and call. </p>
                 
                 <div class="mt-4">
-                    <a href="" class="rounded-sm text-lg px-5 py-2 font-semibold text-gray-100 transition-colors duration-200 transform bg-mitherapy_pink-700 hover:bg-mitherapy_pink-600 focus:outline-none focus:ring focus:ring-offset-2 focus:ring-mitherapy_pink-700 focus:ring-opacity-50 active:bg-mitherapy_pink-700">Apply Here</a>
+                    <a href="https://forms.gle/vRy3Ns5EMpshFdRAA" class="rounded-sm text-lg px-5 py-2 font-semibold text-gray-100 transition-colors duration-200 transform bg-mitherapy_pink-700 hover:bg-mitherapy_pink-600 focus:outline-none focus:ring focus:ring-offset-2 focus:ring-mitherapy_pink-700 focus:ring-opacity-50 active:bg-mitherapy_pink-700">Apply Here</a>
                     <a href="https://www.facebook.com/job_opening/526904738342820"  class="ml-2 inline-flex mt-10"> <span class=" text-gray-600">or on facebook</span><span class="ml-2 inline-flex"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="text-white w-5 h-5"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"/>
                     </svg></span>
                     </a>
