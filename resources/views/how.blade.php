@@ -7,20 +7,20 @@
         <section class="hidden lg:block m-32 text-gray-800 body-font">
           <ul class="w-full steps">
             <li data-content="?" class="step step-neutral"> <span class=" text-mitherapy_pink-800">Click on </span>
-              <button onclick="window.location='{{ url("/#book") }}'" class="mt-1 mb-1 btn btn-primary btn-sm bg-green-600 hover:bg-green-700 hover:border-teal-600 border-teal-600 rounded-full">Book your well mind</button>
+              <button onclick="window.location='{{ url("/#book") }}'" class=" btn-disabled mt-1 mb-1 btn btn-primary btn-sm bg-green-600 hover:bg-green-700 hover:border-teal-600 border-teal-600 rounded-full">Book your well mind</button>
               on the top right of your screen or <br/>
               Go to our <a href="{{url('/')}}"><span class="text-mitherapy_pink-700">Home page.</span></a>
             </li> 
             <li data-content="!" class="step step-neutral">
-              Now when you are there<span class="text-mitherapy_pink-800">Click on</span>
-              <div class="btn visible bg-mitherapy_pink-800 hover:bg-mitherapy_pink-600 items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex" role="alert">
-                <span class="flex rounded-full bg-mitherapy_purple-400 uppercase mr-1 text-xs font-bold animate-pulse">Start Now</span>
+              Now when you are at the Home page<span class="text-mitherapy_pink-800">Click on</span>
+              <div class=" btn btn-disabled visible bg-mitherapy_pink-800 hover:bg-mitherapy_pink-600 items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex" role="alert">
+                <button  class=" mt-1 mb-1 btn btn-primary btn-sm bg-mitherapy_purple-400 btn-disabled uppercase border-none rounded-full">Start Now</button>
                 <span class="font-semibold mr-2 text-left flex-auto">Book...</span>
                 <svg class="fill-current opacity-75 h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z"/></svg>
               </div>
             </li> 
             <li data-content="✓" class="step step-neutral">
-              Now you will be presented with three options, <span class=" text-mitherapy_pink-800">pick one.</span><br />
+              You will be presented with three options, <span class=" text-mitherapy_pink-800">pick one.</span><br />
               <ul>
                 <li class=" list-decimal">Student Therapy</li>
                 <li class=" list-decimal">Individual Therapy</li>
@@ -56,7 +56,12 @@
                
                 <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
                   <p class="leading-relaxed">
-                    Now when you are there <span class="text-mitherapy_pink-800">Click on</span> <button  class="mt-1 mb-1 btn btn-primary btn-sm bg-mitherapy_purple-400 btn-disabled uppercase border-none rounded-full">Start Now</button> 
+                    Now when you are there <span class="text-mitherapy_pink-800">Click on</span> 
+                    <div class="btn visible bg-mitherapy_pink-800 hover:bg-mitherapy_pink-600 items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex" role="alert">
+                      <button  class="mt-1 mb-1 btn btn-primary btn-sm bg-mitherapy_purple-400 btn-disabled uppercase border-none rounded-full">Start Now</button>
+                      <span class="font-semibold mr-2 text-left flex-auto">Book...</span>
+                      <svg class="fill-current opacity-75 h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z"/></svg>
+                    </div> 
                     to show available therapy types.
                   </p>
                 </div>
@@ -69,7 +74,7 @@
                 
                 <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
                   <p class=" leading-relaxed">
-                    Now you will be presented with three options, <span class=" text-mitherapy_pink-800">pick one.</span><br />
+                    You will be presented with three options, <span class=" text-mitherapy_pink-800">pick one.</span><br />
               <ul>
                 <li class=" list-decimal">Student Therapy</li>
                 <li class=" list-decimal">Individual Therapy</li>
