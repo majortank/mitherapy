@@ -22598,3 +22598,20 @@ process.umask = function() { return 0; };
 /******/ 	
 /******/ })()
 ;
+//Smooth scrolling with links
+$('a[href*=\\#]').on('click', function(event){     
+  event.preventDefault();
+  $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+});
+
+// Smooth scrolling when the document is loaded and ready
+$(document).ready(function(){
+$('html,body').animate({scrollTop:$(location.hash).offset().top}, 500);
+});
+
+function toggleModal(modalID){
+  document.getElementById(modalID).classList.toggle("hidden");
+  document.getElementById(modalID + "-backdrop").classList.toggle("hidden");
+  document.getElementById(modalID).classList.toggle("flex");
+  document.getElementById(modalID + "-backdrop").classList.toggle("flex");
+}
