@@ -63,10 +63,10 @@
         
         
             <div class="bg-mitherapy_purple-500 text-center py-4 lg:px-4">
-              <button @click="show = !show" class=" invisible w-full outline-none border-none">
+              <button @click="show = !show" title="Get to easily book a session through WhatsApp." class=" invisible w-full outline-none border-none">
               <div class="btn p-2 visible bg-mitherapy_pink-800 hover:bg-mitherapy_pink-600 items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex" role="alert">
-                <span class="flex rounded-full bg-mitherapy_purple-400 uppercase px-2 py-1 text-xs font-bold mr-3 animate-pulse">Start Now</span>
-                <span class="font-semibold mr-2 text-left flex-auto">Book a therapy session of your choice through WhatsApp</span>
+                <span class="flex rounded-full bg-mitherapy_purple-400 uppercase px-2 py-1 text-xs font-bold mr-3 animate-pulse" title="You can start right now">Start Now</span>
+                <span class="font-semibold mr-2 text-left flex-auto">Book through WhatsApp</span>
                 <svg class="fill-current opacity-75 h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z"/></svg>
               </div>
             </button>
@@ -144,8 +144,8 @@
                 <p class="mt-4 text-gray-600 dark:text-gray-400">You are a professional or graduate counselor, we connect you to clients that you can counsel remotely through chat, video, and call. </p>
                 
                 <div class="mt-4">
-                    <a href="https://forms.gle/vRy3Ns5EMpshFdRAA" class="rounded-sm text-lg px-5 py-2 font-semibold text-gray-100 transition-colors duration-200 transform bg-mitherapy_pink-700 hover:bg-mitherapy_pink-600 focus:outline-none focus:ring focus:ring-offset-2 focus:ring-mitherapy_pink-700 focus:ring-opacity-50 active:bg-mitherapy_pink-700">Apply Here</a>
-                    <a href="https://www.facebook.com/job_opening/526904738342820"  class="ml-2 inline-flex mt-10"> <span class=" text-gray-600">or on facebook</span><span class="ml-2 inline-flex"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="text-white w-5 h-5"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"/>
+                    <a href="https://forms.gle/vRy3Ns5EMpshFdRAA" class="rounded-sm text-lg px-5 py-2 font-semibold text-gray-100 transition-colors duration-200 transform bg-mitherapy_pink-700 hover:bg-mitherapy_pink-600 focus:outline-none focus:ring focus:ring-offset-2 focus:ring-mitherapy_pink-700 focus:ring-opacity-50 active:bg-mitherapy_pink-700" title="Apply here to start counseling">Apply Here</a>
+                    <a href="https://www.facebook.com/job_opening/526904738342820" title="Apply using facebook if you like"  class="ml-2 inline-flex mt-10"> <span class=" text-gray-600">or on facebook</span><span class="ml-2 inline-flex"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="text-white w-5 h-5"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"/>
                     </svg></span>
                     </a>
                 </div>

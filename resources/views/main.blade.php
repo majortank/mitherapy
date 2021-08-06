@@ -2,49 +2,29 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="{{ asset('favicon.ico') }}">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('apple-touch-icon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('favicon-16x16.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('android-chrome-192x192.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('android-chrome-512x512.png') }}">
+    <link rel="manifest" href="/site.webmanifest">
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" defer></script>
     <script src="{{ asset('js/app.js')}}"></script>
     <title>@yield('pageTitle') - Mitherapy</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0S9BB226YG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0S9BB226YG');
+</script>
 </head>
 
- <!-- Messenger Chat Plugin Code -->
- <div id="fb-root"></div>
-
- <!-- Your Chat Plugin code -->
- <div id="fb-customer-chat" class="fb-customerchat">
- </div>
-
- <script>
-   var chatbox = document.getElementById('fb-customer-chat');
-   chatbox.setAttribute("page_id", "105194548087419");
-   chatbox.setAttribute("attribution", "biz_inbox");
-
-   window.fbAsyncInit = function() {
-     FB.init({
-       xfbml            : true,
-       version          : 'v11.0'
-     });
-   };
-
-   (function(d, s, id) {
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) return;
-     js = d.createElement(s); js.id = id;
-     js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
- </script>
-     <!-- -->
-         <!-- Require css -->
- <style>
- .scroll-hidden::-webkit-scrollbar {
-     height: 0px;
-     background: transparent; /* make scrollbar transparent */
- }
- </style>
-
-     <!-- nav -->
+ <script>  var MessageBirdChatWidgetSettings = {     widgetId: '7cf155bf-fa04-4883-a07d-51f5e0167370',     initializeOnLoad: true,   };  !function(){"use strict";if(Boolean(document.getElementById("live-chat-widget-script")))console.error("MessageBirdChatWidget: Snippet loaded twice on page");else{var e,t;window.MessageBirdChatWidget={},window.MessageBirdChatWidget.queue=[];for(var i=["init","setConfig","toggleChat","identify","hide","on","shutdown"],n=function(){var e=i[d];window.MessageBirdChatWidget[e]=function(){for(var t=arguments.length,i=new Array(t),n=0;n<t;n++)i[n]=arguments[n];window.MessageBirdChatWidget.queue.push([[e,i]])}},d=0;d<i.length;d++)n();var a=(null===(e=window)||void 0===e||null===(t=e.MessageBirdChatWidgetSettings)||void 0===t?void 0:t.widgetId)||"",o=function(){var e,t=document.createElement("script");t.type="text/javascript",t.src="https://livechat.messagebird.com/bootstrap.js?widgetId=".concat(a),t.async=!0,t.id="live-chat-widget-script";var i=document.getElementsByTagName("script")[0];null==i||null===(e=i.parentNode)||void 0===e||e.insertBefore(t,i)};"complete"===document.readyState?o():window.attachEvent?window.attachEvent("onload",o):window.addEventListener("load",o,!1)}}();</script>
      <header class=" sticky top-0 z-50 bg-mitherapy_purple-500 dark:bg-gray-800">
      <nav class="dark:border-gray-700">
          <div x-data="{isOpen:false}" class="container px-6 py-1 mx-auto lg:flex lg:justify-between lg:items-center">
@@ -55,7 +35,7 @@
                      </a>
                  </div>
                  
-                 <!-- Mobile menu button -->
+               
                  <div class="flex lg:hidden">
                      <button type="button" class="text-white dark:text-gray-200 hover:text-mitherapy_pink-600 dark:hover:text-gray-400 focus:outline-none focus:text-mitherapy_pink-700 dark:focus:text-gray-400" aria-label="toggle menu" @click="isOpen = !isOpen" >
                          <svg viewBox="0 0 24 24" class="w-6 h-6 fill-current">
@@ -65,15 +45,15 @@
                  </div>
              </div>
              
-             <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
+            
              <div :class="isOpen ? 'show' : 'hidden'" class="items-center lg:flex my-6 indicator">
                  <div class="flex flex-col mt-4 space-y-8 lg:flex-row lg:items-center lg:mt-0 lg:space-y-0 lg:space-x-8 lg:font-bold">
-                  <a class="block font-medium text-white dark:text-gray-200 hover:text-mitherapy_pink-600 hover:underline" title="Check how mitherapy session booking works." href="/">Home</a>
+                  <a class="block font-medium text-white dark:text-gray-200 hover:text-mitherapy_pink-600 hover:underline" title="Our Home Page." href="/">Home</a>
                      <a class="block font-medium text-white dark:text-gray-200 hover:text-mitherapy_pink-600 hover:underline" title="Check how mitherapy session booking works." href="/How-it-works">How it works!</a>
                      <a class="block font-medium text-white dark:text-gray-200 hover:text-mitherapy_pink-600 hover:underline" title="Why get counselled by us" href="/Why-us">Why us?</a>
                      <a class="block font-medium text-white dark:text-gray-200 hover:text-mitherapy_pink-600 hover:underline" title="Stay up to date with health resources" href="/Resources">Resources</a>
                      <div class="hidden lg:block indicator-item badge badge-sm bg-mitherapy_pink-600 border-mitherapy_pink-600">unwell?</div> 
-                    <button onclick="window.location='{{ url("/#book") }}'" class="hidden lg:block mt-1 mb-1 btn btn-primary btn-sm bg-green-600 hover:bg-green-700 hover:border-teal-600 border-teal-600 rounded-full">Book your well mind</button>
+                    <button onclick="window.location='{{ url("/#book") }}'" title="Not feeling well?" class="hidden lg:block mt-1 mb-1 btn btn-primary btn-sm bg-green-600 hover:bg-green-700 hover:border-teal-600 border-teal-600 rounded-full">Book your well mind</button>
                  </div>
              </div>
              
@@ -81,7 +61,7 @@
      </nav>
  </header>
  @yield('contents')
-     <!-- end nav -->
+    
 
      <footer class=" bg-gray-300 text-gray-800 body-font">     
         <div class="container px-5 py-5 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
@@ -106,11 +86,11 @@
   <table class="table w-full bg-white">
     <tbody>
       <tr class="bg-white">
-        <th>Contact Numbers:</th> 
+        <th>Call:</th> 
         <td>063 874 4947</td> 
       </tr>
       <tr class="bg-white">
-        <th>Email Address:</th> 
+        <th>Email:</th> 
         <td>info@mitherapy.site</td> 
       </tr>
     </tbody>
@@ -120,7 +100,7 @@
             </div> 
             <!-- -->
             <div class="modal-action"> 
-              <label for="my-modal-2" class="btn bg-mitherapy_pink-600">Close</label>
+              <label for="my-modal-2" class="mr-16 lg:mr-1 btn bg-mitherapy_pink-600">Close</label>
             </div>
           </div>
         </div>
@@ -142,13 +122,12 @@
                   <script async data-uid="fa6b426461" src="https://awesome-artist-1556.ck.page/fa6b426461/index.js"></script>
             </div>
           <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
-            <!-- -->
+          
             
             <div class=" hidden md:flex lg:hidden items-center justify-center lg:items-start lg:justify-start mb-1">
               <label for="my-modal-2" class="btn btn-wide btn-sm modal-button" role="button" aria-pressed="true">Contact Us</label>  
             </div>
-            <!-- -->
-              <!-- -->
+            
               <div class=" lg:ml-20 lg:w-full card shadow-lg compact side bg-gray-300"><div class="flex-row items-center space-x-4 card-body">
                 <div>
                   <div class="avatar">
@@ -164,8 +143,7 @@
                 </div>
               </div>
             </div>
-              <!-- -->
-              
+             
             
             
           </div>

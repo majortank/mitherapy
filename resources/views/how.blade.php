@@ -97,7 +97,7 @@
             </div>
 
             <div class="flex relative pb-10 sm:items-center sm:w-full md:w-2/3 mx-auto">
-              <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">4</div>
+              <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">5</div>
               <div class="flex-grow pl-6 flex sm:items-center items-start flex-col sm:flex-row">
                 
                 <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
